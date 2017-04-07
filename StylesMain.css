@@ -1,0 +1,90 @@
+﻿*{
+    font-family: 'Acme', sans-serif;
+}
+body
+{
+    background:url("http://coisasdocesdavida.com/wp-content/uploads/2013/01/veridiana-segundo-andar.jpeg");
+  /*background:url("http://www.seriouseats.com/images/2016/05/20160503-spicy-spring-pizza-primary.jpg") no-repeat center bottom;*/
+  background-size: cover;
+  background-attachment: fixed;
+}
+#memberModalLabel{
+    position:relative;
+    text-align:center;
+}
+#myModal{
+    padding-top:150px;
+}
+#modal-background {
+   background: url("https://static1.squarespace.com/static/55a506a8e4b025e7c4de7ed3/t/561d30aae4b059979c67b663/1444753579763/pep-pizza.jpg");
+}
+.modal-body{
+    height:400px;
+    width:auto;
+}
+.image { 
+   display:inline;
+   width: 100%;
+   height: 150px;
+   background:url("images/images.jpg") no-repeat;
+   display:inherit;
+   min-width:284px;
+}
+.modal-content{
+    min-width:300px;
+}
+#modal-pizza-text1, #modal-pizza-text2{
+    color:#ff0022;
+}
+    
+
+
+header{
+  padding: 50px 0;
+}
+
+#navbar a{
+    font-size:20px;
+    color:white;
+    text-decoration:none;
+}
+#pizza{
+    color:white;
+    text-decoration:none;
+}
+.pizza-container figure {
+	height: 260px;
+}
+.pizza-container img {
+	margin: 0 auto;
+}
+.thumbnail:hover {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -33px;
+    cursor:pointer;
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1199px)  {
+  .thumbnail:hover {
+	  top: -10px;
+  }
+  .pizza-container figure {
+      height: 240px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .pizza-container img {
+      max-width: 100%;
+      width: auto;
+      margin: 0 auto 20px auto;
+  }
+  .pizza-container figure {
+      height: auto;
+  }
+  .thumbnail:hover {
+		position: initial;
+		width: auto;
+  }
+}
