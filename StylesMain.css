@@ -30,11 +30,8 @@ body
    display:inherit;
    min-width:284px;
 }
-.modal-content{
-    min-width:300px;
-}
-#modal-pizza-text1, #modal-pizza-text2{
-    color:#ff0022;
+.modal.and.carousel {
+  position: absolute; // Needed because the carousel overrides the position property
 }
     
 
