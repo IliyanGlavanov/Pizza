@@ -1,0 +1,92 @@
+﻿*{
+    font-family: 'Acme', sans-serif;
+}
+body
+{
+    background: url("http://photo.elsoar.com/wp-content/images/Pizza-with-ingredients-on-table.jpg")no-repeat center bottom;
+    /*background:url("http://pop.h-cdn.co/assets/16/36/980x490/landscape-1473236776-6152700287-c0e1d51bfe-b.jpg") no-repeat center bottom;*/
+    background-size:cover;
+    background-attachment: fixed;
+}
+header{
+  padding: 50px 0;
+}
+
+#navbar a{
+    font-size:20px;
+    color:white;
+    text-decoration:none;
+}
+#navbar li:hover{
+    position:relative;
+    top:-2px;
+}
+#pizza{
+    color:white;
+    text-decoration:none;
+}
+#pizza:hover{
+    color:black;
+    text-decoration:none;
+}
+#number {
+    color:white;
+    float: left;
+    position: relative;
+    bottom: 14px;
+}
+#left-container{
+     line-height:0;
+}
+#dough, #toppings, #sauce{
+    position:relative;
+    bottom:90px;
+    color:#008211;
+    font-size:18px;
+}
+#dough:hover, #toppings:hover, #sauce:hover{
+    color:black;
+}
+.carousel-inner{
+    display:block;
+    position:relative;
+    height:inherit;
+    width:100%;
+    overflow:hidden;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
+.carousel-control.left, .carousel-control.right{ 
+    background: none !important;
+}
+#menu1, ul{
+    width:100%;
+    word-spacing:2px;
+}
+.dropdown-menu li{
+    text-align: center;
+    letter-spacing:2px;
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+    #left-container{
+        line-height:normal;
+    }
+    #dough li, #toppings li, #sauce li{
+        display:block;
+        position:relative;
+        right:30%;
+    }
+}
+@media only screen and (max-width: 991px) {
+      #left-container{
+        line-height:normal;
+    }
+    #dough li, #toppings li, #sauce li{
+        display:block;
+        position:relative;
+        right:10%;
+        bottom:25px;
+    }
+}
