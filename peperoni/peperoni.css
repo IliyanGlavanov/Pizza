@@ -1,0 +1,264 @@
+﻿*{
+    font-family: 'Acme', sans-serif;
+}
+body
+{
+    background: url("http://photo.elsoar.com/wp-content/images/Pizza-with-ingredients-on-table.jpg")no-repeat center bottom;
+    background-size:cover;
+    background-attachment: fixed;
+}
+#nav{background: #FEE0C6;}
+#navbar{
+    text-align:left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#navbar a{
+    font-size: 20px;
+    color:white;
+    text-decoration:none;
+    text-shadow:2px 1px 1px #333;
+}
+.navbutton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+      float: left;
+}
+
+.navbutton {
+    background-color: #4CAF50; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.navbutton:hover {
+    background-color:rgba(76, 175, 80, 0.79);
+    color: white;
+}
+#signin{
+     font-size:25px;
+     box-sizing:initial; 
+     padding: 20px; 
+     width: 30px; 
+     text-align: center; 
+     text-decoration: none; 
+     margin: 5px 2px; 
+     background-color: #3d5b99;
+}
+#pizza{
+    color:white;
+    text-decoration:none;
+    text-shadow:2px 1px 1px #333;
+    font-size:80px;
+}
+#pizza:hover{
+    color:black;
+    text-decoration:none;
+}
+#number {
+    color:white;
+    float: left;
+    position: relative;
+    bottom: 14px;
+    text-shadow:2px 1px 1px #333;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+#left-container{
+     line-height:0;
+     background: #FEE0C6;
+     border-top:2px solid white;
+}
+#dough, #toppings, #sauce{
+    position:relative;
+    bottom:90px;
+    color:#008211;
+    font-size:18px;
+}
+#dough:hover, #toppings:hover, #sauce:hover{
+    color:black;
+}
+.carousel-inner{
+    display:block;
+    position:relative;
+    height:inherit;
+    width:100%;
+    overflow:hidden;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
+.carousel-control.left, .carousel-control.right{ 
+    background: none !important;
+}
+#menu1, ul{
+    width:100%;
+    word-spacing:2px;
+}
+.dropdown-menu li{
+    text-align: center;
+    letter-spacing:2px;
+}
+/* FOOTER SOCIAL MEDIA BUTTONS*/
+.footer-social-icons {
+            width: 350px;
+            display: block;
+            margin: 0 auto;
+            color: white;
+        }
+
+        .social-icon {
+            color: #fff;
+        }
+
+        ul.social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons li {
+            vertical-align: top;
+            display: inline;
+            height: 100px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .fa-facebook {
+            padding: 10px 14px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #322f30;
+        }
+
+            .fa-facebook:hover {
+                background-color: #3d5b99;
+            }
+
+        .fa-twitter {
+            padding: 10px 12px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #322f30;
+        }
+
+            .fa-twitter:hover {
+                background-color: #00aced;
+            }
+
+        .fa-rss {
+            padding: 10px 14px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #322f30;
+        }
+
+            .fa-rss:hover {
+                background-color: #eb8231;
+            }
+
+        .fa-youtube {
+            padding: 10px 14px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #322f30;
+        }
+
+            .fa-youtube:hover {
+                background-color: #e64a41;
+            }
+
+        .fa-linkedin {
+            padding: 10px 14px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #322f30;
+        }
+
+            .fa-linkedin:hover {
+                background-color: #0073a4;
+            }
+
+        .fa-google-plus {
+            padding: 10px 9px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #322f30;
+        }
+
+            .fa-google-plus:hover {
+                background-color: #e25714;
+            }
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+    #left-container{
+        line-height:normal;
+    }
+    #dough li, #toppings li, #sauce li{
+        font-size:25px;
+        display:block;
+        position:relative;
+        float:right;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 991px) {
+      #left-container{
+        line-height:normal;
+    }
+    #dough li, #toppings li, #sauce li{
+        display:block;
+        position:relative;
+        float:right;
+        bottom:25px;
+        right:-10%;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width:767px){
+    #dough li, #toppings li, #sauce li{
+        font-size:25px;
+        display:block;
+        line-height:25px;
+        position:relative;
+        bottom:25px;
+    }
+}
+@media only screen and (max-width:359px){
+    #dough li, #toppings li, #sauce li {
+        font-size:15px;   
+    }
+}

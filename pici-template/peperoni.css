@@ -1,0 +1,35 @@
+﻿*{
+    font-family: 'Acme', sans-serif;
+}
+body
+{
+    background:url("http://pop.h-cdn.co/assets/16/36/980x490/landscape-1473236776-6152700287-c0e1d51bfe-b.jpg") no-repeat center bottom;
+    background-size:cover;
+    background-attachment: fixed;
+}
+header{
+  padding: 50px 0;
+}
+
+#navbar a{
+    font-size:20px;
+    color:white;
+    text-decoration:none;
+}
+#navbar li:hover{
+    position:relative;
+    top:-2px;
+}
+#pizza{
+    color:white;
+    text-decoration:none;
+}
+#pizza:hover{
+    color:black;
+    text-decoration:none;
+}
+#number{
+    float:left;
+    position:relative;
+    bottom:14px;
+}

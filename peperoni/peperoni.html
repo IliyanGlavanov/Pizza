@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best pizza in the city">
+    <meta name="keywords" content="Best, Pizza, Belene, Slice, Pepperoni">
+    <link type="image/x-icon" rel="icon" href="../Sonya-Swarm-Pizza.ico" />
+    <meta charset="utf-8" />
+    <title>Пицарията на Илиян</title>
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <!--Icons-->
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--MY .CSS-->
+    <link type="text/css" rel="stylesheet" href="peperoni.css" />
+</head>
+<body>
+    <header class="container">
+        <div class="row">
+            <h1 class="col-md-11 col-sm-4 col-xs-4"><a href="../Home/Home.html" id="pizza">Пицарията на Илиян &reg;</a></h1>
+            <h5 class="col-md-1 col-sm-12 col-xs-12" style="color:black">Влезте с: <a href="#" class="fa fa-facebook" id="signin"></a></h5>
+
+            <h6 class="col-md-12 col-sm-12 col-xs-12" id="number"> Телефон за поръчки: +359 </h6>
+            <nav class="col-md-12 col-sm-12 col-xs-12" id="nav">
+                <ul id="navbar">
+                    <li><a href="../home/home.html" class="navbutton">Начало</a></li>
+                    <li><a href="../promocii/promocii.html" class="navbutton">Промоции</a></li>
+                    <li><a href="../napitki/napitki.html" class="navbutton">Напитки</a></li>
+                    <li><a href="../dostavka/dostavka.html" class="navbutton">Доставка</a></li>
+                    <li><a href="../kontakti/kontakti.html" class="navbutton">Контакти</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div class="container" id="left-container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <img src="http://vignette1.wikia.nocookie.net/farmville2/images/0/08/Dough.png/revision/latest?cb=20121112064249" />
+                <ul class="text-right list-inline" id="dough">
+                    <li>Брашно,</li>
+                    <li>Яйца,</li>
+                    <li>Mляко,</li>
+                    <li>Мая</li>
+                </ul>
+                <img src="https://cdn0.iconfinder.com/data/icons/foody-icons/32/FoodyIcons_color-04-128.png" />
+                <ul class="text-right list-inline" id="toppings">
+                    <li>Кашкавал,</li>
+                    <li>Моцарела,</li>
+                    <li>Салам "Пеперони"</li>
+
+                </ul>
+                <img src="http://www.iconninja.com/files/266/387/752/sauce-icon.png" />
+                <ul class="text-right list-inline" id="sauce">
+                    <li>Домати,</li>
+                    <li>Чесън,</li>
+                    <li>Зехтин,</li>
+                    <li>Риган,</li>
+                    <li>Босилек,</li>
+                    <li>Захар</li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+                        Изберете размер
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Размер SM - Цена: 2.99 лв.</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Размер M - Цена: 3.49 лв.</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Размер L - Цена: 4.49 лв.</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Размер XL - Цена: 5.29 лв.</a></li>
+                    </ul>
+                </div>
+               <!-- <select class="form-control">
+                    <a href="#"><option>Размер SM - Цена: 2.99 лв.</option></a>
+                    <option>Размер M - Цена: 3.49 лв.</option>
+                    <option>Размер L - Цена: 4.49 лв.</option>
+                    <option>Размер XL - Цена: 5.29 лв.</option>
+                    <option>Размер XXL - Цена: 6.99 лв.</option>
+                </select> -->
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <a href="http://www.facebook.com/">
+                                <img class="image" src="http://www.cicis.com/media/1176/pizza_trad_pepperonibeef.png" alt="..." />
+                            </a>
+                            <div class="carousel-caption"></div>
+                        </div>
+                        <div class="item">
+                            <a href="http://www.facebook.com/">
+                                <img class="image" src="http://pngbase.com/content/Food/Pizza/3527.png" alt="..." />
+                            </a>
+                            <div class="carousel-caption"></div>
+                        </div>
+                        <div class="item">
+                            <a href="http://www.facebook.com/">
+                                <img class="image" src="http://betheme.muffingroupsc.netdna-cdn.com/be/pizza/wp-content/uploads/2014/09/home_pizza_slider_1.png" />
+                            </a>
+                            <div class="carousel-caption"></div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+             </div>
+          </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-social-icons">
+            <h4 class="_14">Follow us on</h4>
+            <ul class="social-icons">
+                <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+                <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,35 +1,22 @@
 ﻿*{
-    font-family: 'Acme', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 body
 {
-    background:url("http://coisasdocesdavida.com/wp-content/uploads/2013/01/veridiana-segundo-andar.jpeg");
-  /*background:url("http://www.seriouseats.com/images/2016/05/20160503-spicy-spring-pizza-primary.jpg") no-repeat center bottom;*/
+    background:url("https://s-media-cache-ak0.pinimg.com/originals/b0/7c/3d/b07c3db88e9d36e21cf069e761c0f722.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
 .modal.and.carousel {
   position: absolute; /* Needed because the carousel overrides the position property*/
 }
-    
 
-
-header{
-  padding: 50px 0;
+/*First row + promo start*/
+.pizza-container{
+    background-color: #3D3A38;
 }
-
-#navbar a{
-    font-size:20px;
-    color:white;
-    text-decoration:none;
-}
-#navbar li:hover{
-    position:relative;
-    top:-2px;
-}
-#pizza{
-    color:white;
-    text-decoration:none;
+#firstrow{
+    border-top:2px solid white;
 }
 .pizza-container figure {
 	height: 260px;
@@ -37,12 +24,9 @@ header{
 .pizza-container img {
 	margin: 0 auto;
 }
-.thumbnail:hover {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: -33px;
-    cursor:pointer;
+#rightasider{
+   min-height:100%;
+   height:inherit;
 }
 .figure-caption{
     color:white;
@@ -50,7 +34,51 @@ header{
 .carousel-caption{
     position:absolute;
 }
-@media only screen and (min-width: 991px) and (max-width: 1199px)  {
+.card {
+    border: 1px solid white;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: #c5c3fe;
+}
+
+.containers {
+    
+    padding: 0 16px;
+}
+
+.pizza-name {
+    color: gray;
+    font-size: 18px;
+}
+
+.poruchai {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.poruchai:hover {
+    opacity: 0.9;
+    color:green;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+    #number br{
+        display:none;
+    }
   .thumbnail:hover {
 	  top: -10px;
   }
@@ -58,7 +86,13 @@ header{
       height: 240px;
   }
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    #myModal{
+        display:none;
+    }
+    #rightasider{
+        display:none;
+    }
   .pizza-container img {
       max-width: 100%;
       width: auto;
@@ -71,4 +105,20 @@ header{
 		position: initial;
 		width: auto;
   }
+}
+@media only screen and (min-width: 360px) and (max-width:767px) {
+    #myModal{
+        display:none;
+    }
+    #rightasider{
+        display:none;
+    }
+}
+@media only screen and (max-width:359px) {
+    #myModal{
+        display:none;
+    }
+    #rightasider{
+        display:none;
+    }
 }

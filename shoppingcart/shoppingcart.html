@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best pizza in the city">
+    <meta name="keywords" content="Best, Pizza, Belene, Slice, Pepperoni">
+    <link type="image/x-icon" rel="icon" href="../Sonya-Swarm-Pizza.ico" />
+    <meta charset="utf-8" />
+    <title>Пицарията на Илиян</title>
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!--Icons-->
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--popup-->
+    <script src="script-popup.js" type="text/javascript"></script>
+    <!--MY .CSS-->
+    <link type="text/css" rel="stylesheet" href="shoppingcart.css" />
+    <!--ToolTip-->
+    <script src="../tooltip.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <header class="container">
+        <div class="row">
+            <h1 class="col-md-9 col-sm-12 col-xs-12"><a href="../Home/Home.html" id="pizza">Iliyan's pizza</a></h1>
+            <a href="#" class="col-md-2 col-sm-6 col-xs-6 btn btn-info btn-lg" id="shoppingcart">
+                <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+            </a>
+            <h5 class="col-md-1 col-sm-6 col-xs-6" style="color:white">Sign in with <a href="#" class="fa fa-facebook" id="signin"></a></h5>
+        </div>
+        <div class="row">
+            <h5 class="col-md-12 col-sm-12 col-xs-12 	glyphicon glyphicon-earphone" id="number"> Телефон за поръчки: +359 </h5>
+        </div>
+        <div class="row">
+            <nav class="col-md-12 col-sm-12 col-xs-12" id="nav">
+                <ul id="navbar">
+                    <li><a href="../home/home.html" class="navbutton">Начало</a></li>
+                    <li><a href="../promocii/promocii.html" class="navbutton">Промоции</a></li>
+                    <li><a href="../napitki/napitki.html" class="navbutton">Напитки</a></li>
+                    <li><a href="../dostavka/dostavka.html" class="navbutton">Доставка</a></li>
+                    <li><a href="../kontakti/kontakti.html" class="navbutton">Контакти</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <!--SHOPPING CART START-->
+    <div class="container" id="cartcontent">
+        <table class="table  table-condensed">
+            <thead>
+                <tr>
+                    <th style="width:50%">Product</th>
+                    <th style="width:10%">Price</th>
+                    <th style="width:8%">Quantity</th>
+                    <th style="width:22%" class="text-center">Subtotal</th>
+                    <th style="width:10%"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-th="Product">
+                        <div class="row">
+                            <div class="col-sm-2 hidden-xs"><img src="http://placehold.it/100x100" alt="..." class="img-responsive" /></div>
+                            <div class="col-sm-10">
+                                <h4 class="nomargin">Peperoni pizza</h4>
+                                <p>You have selected a Peperoni pizza!</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td data-th="Price">$1.99</td>
+                    <td data-th="Quantity">
+                        <input type="number" class="form-control text-center" value="1">
+                    </td>
+                    <td data-th="Subtotal" class="text-center">1.99</td>
+                    <td class="actions" data-th="">
+                        <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                        <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr class="visible-xs">
+                    <td class="text-center"><strong>Total 1.99</strong></td>
+                </tr>
+                <tr>
+                    <td><a href="#" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
+                    <td colspan="2" class="hidden-xs"></td>
+                    <td class="hidden-xs text-center"><strong>Total $1.99</strong></td>
+                    <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <!--SHOPPING CART END-->
+    <!--FOOTER START-->
+    <footer>
+        <div class="footer-social-icons">
+            <h4 class="_14">Follow us on</h4>
+            <ul class="social-icons">
+                <li><a href="" class="social-icon" data-toggle="tooltip" title="Facebook"> <i class="fa fa-facebook"></i></a></li>
+                <li><a href="" class="social-icon" data-toggle="tooltip" title="Twitter"> <i class="fa fa-twitter"></i></a></li>
+                <li><a href="" class="social-icon" data-toggle="tooltip" title="RSS"> <i class="fa fa-rss"></i></a></li>
+                <li><a href="" class="social-icon" data-toggle="tooltip" title="YouTube"> <i class="fa fa-youtube"></i></a></li>
+                <li><a href="" class="social-icon" data-toggle="tooltip" title="LinkedIn"> <i class="fa fa-linkedin"></i></a></li>
+                <li><a href="" class="social-icon" data-toggle="tooltip" title="Google"> <i class="fa fa-google-plus"></i></a></li>
+
+            </ul>
+        </div>
+    </footer>
+    <!--FOOTER END-->
+</body>
+</html>

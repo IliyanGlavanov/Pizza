@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best pizza in the city">
+    <meta name="keywords" content="Best, Pizza, Belene, Slice, Pepperoni">
+    <link type="image/x-icon" rel="icon" href="../pizza-icon.ico" />
+    <meta charset="utf-8" />
+    <title>Iliyan's Pizza Place</title>
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!--Icons-->
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--popup-->
+        <script src="script-popup.js" type="text/javascript"></script>
+    <!--MY .CSS LIBRARY-->
+    <link type="text/css" rel="stylesheet" href="../main.css" />
+    <!--MY .CSS-->
+    <link type="text/css" rel="stylesheet" href="napitki.css" />
+
+</head>
+<body>
+  <header class="container">
+      <div class="row">
+          <h1 class="col-md-9 col-sm-12 col-xs-12"><a href="../Home/Home.html" id="pizza">Iliyan's Pizza Place</a></h1>
+          <a href="#" class="col-md-2 col-sm-6 col-xs-6 btn btn-info btn-lg" id="shoppingcart">
+              <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+          </a>
+          <h5 class="col-md-1 col-sm-6 col-xs-6" style="color:white">Log in with <a href="#" class="fa fa-facebook" id="signin"></a></h5>
+      </div>
+      <div class="row">
+          <nav class="col-md-12 col-sm-12 col-xs-12" id="nav">
+              <ul id="navbar">
+                  <li><a href="../index.html" class="navbutton">Home</a></li>
+                  <li><a href="../deals/deals.html" class="navbutton">Deals</a></li>
+                  <li><a href="../napitki/napitki.html" class="navbutton">Drinks</a></li>
+                  <li><a href="../dostavka/dostavka.html" class="navbutton">Delivery</a></li>
+                  <li><a href="../kontakti/kontakti.html" class="navbutton">Contact us</a></li>
+                  <li><h4 class="glyphicon glyphicon-earphone text-right" id="number"> Call us on: <br /><br /> + 359 00 00 00 000 </h4></li>
+              </ul>
+          </nav>
+
+      </div>
+  </header>
+    <section class="container pizza-container">
+
+        <div class="row" id="firstrow">
+            <div class="card col-md-3">
+                <img src="http://www.iconarchive.com/download/i82487/michael/coke-pepsi/Coca-Cola-Can.ico" alt="John" style="width:100%">
+                <div class="containers">
+                    <h2>Coca Cola Classic</h2>
+                    <p class="pizza-name" data-toggle="tooltip" title="Classic">Type</p>
+                    <p>Price: <b>$0.99</b></p>
+                    <p><button class="poruchai">Add to cart</button></p>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img src="http://icons.iconarchive.com/icons/musett/coca-cola/256/Coke-Zero-icon.png" alt="John" style="width:100%">
+                <div class="containers">
+                    <h2>Coca Cola </br> Zero</h2>
+                    <p class="pizza-name" data-toggle="tooltip" title="Zero">Type</p>
+                    <p>Price: <b>$0.99</b></p>
+                    <p><button class="poruchai">Add to cart</button></p>
+                </div>
+            </div>
+            <div class="col-md-6" id="rightasider">
+                <div id="rightcarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <a href="http://www.facebook.com/">
+                                <img src="promo.jpg" alt="...">
+                            </a>
+                            <div class="carousel-caption">
+                                <h1>Днешната промоция</h1>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="http://www.facebook.com/">
+                                <img src="promo.jpg" alt="...">
+                            </a>
+                            <div class="carousel-caption">
+                                <h1>Днешната промоция</h1>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <a href="http://www.facebook.com/">
+                                <img src="promo.jpg" alt="...">
+                            </a>
+                            <div class="carousel-caption">
+                                <h1>Днешната промоция</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#rightcarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#rightcarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="card col-md-3">
+                <img src="http://icons.iconarchive.com/icons/musett/coca-cola/256/Diet-Coke-icon.png" alt="John" style="width:100%">
+                <div class="containers">
+                    <h2>Coca Cola Diet</h2>
+                    <p class="pizza-name" data-toggle="tooltip" title="Diet">Type</p>
+                    <p>Price: <b>$0.99</b></p>
+                    <p><button class="poruchai">Add to cart</button></p>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img src="http://static.wixstatic.com/media/b74c32_32b8c0d85601487aa3e132b00690e50e.png_256" alt="John" style="width:100%">
+                <div class="containers">
+                    <h2>Coca Cola Life</h2>
+                    <p class="pizza-name" data-toggle="tooltip" title="Life">Type</p>
+                    <p>Price: <b>$0.99</b></p>
+                    <p><button class="poruchai">Add to cart</button></p>
+                </div>
+                </div>
+            <div class="card col-md-3">
+                <img src="http://icons.veryicon.com/256/Food%20%26%20Drinks/Coke%20%26%20Pepsi%20Can/Pepsi%20Can.png" alt="John" style="width:100%">
+                <div class="containers">
+                    <h2>Pepsi Classic</h2>
+                    <p class="pizza-name" data-toggle="tooltip" title="Classic">Type</p>
+                    <p>Price: <b>$0.99</b></p>
+                    <p><button class="poruchai">Add to cart</button></p>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img src="http://files.gamebanana.com/img/ico/sprays/fanta.png" alt="John" style="width:100%">
+                <div class="containers">
+                    <h2>Fanta Orange</h2>
+                    <p class="pizza-name" data-toggle="tooltip" title="Orange">Type</p>
+                    <p>Price: <b>$0.99</b></p>
+                    <p><button class="poruchai">Add to cart</button></p>
+                </div>
+            </div>
+            </div>
+        <div class="row">
+            <div class="card col-md-3">
+                <img src="http://dc343.4shared.com/img/BPCcu2RJ/s3/12146247170/Fanta_Mango.png" alt="John" style="width:100%">
+                <div class="containers">
+                    <h2>Fanta Mango</h2>
+                    <p class="pizza-name" data-toggle="tooltip" title="Mango">Type</p>
+                    <p>Price: <b>$0.99</b></p>
+                    <p><button class="poruchai">Add to cart</button></p>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img src="https://dtgxwmigmg3gc.cloudfront.net/files/53d9f32ee1272f300a0094bd-icon-256x256.png" alt="John" style="width:100%">
+                <div class="containers">
+                    <h2>Monster Ripper</h2>
+                    <p class="pizza-name" data-toggle="tooltip" title="Ripper">Type</p>
+                    <p>Price: <b>$0.99</b></p>
+                    <p><button class="poruchai">Add to cart</button></p>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img src="https://dtgxwmigmg3gc.cloudfront.net/files/53a923cde1272f2374000c3c-icon-256x256.png" alt="John" style="width:100%">
+                <div class="containers">
+                    <h2>Red Bull</h2>
+                    <p class="pizza-name" data-toggle="tooltip" title="Sugar Free">Type</p>
+                    <p>Price: <b>$0.99</b></p>
+                    <p><button class="poruchai">Add to cart</button></p>
+                </div>
+            </div>
+            <div class="card col-md-3">
+                <img src="https://dtgxwmigmg3gc.cloudfront.net/files/4fec08c4c566d77b13011692-icon-256x256.png" alt="John" style="width:100%">
+                <div class="containers">
+                    <h2>Mineral Water</h2>
+                    <p class="pizza-name" data-toggle="tooltip" title="Mineral Water">Type</p>
+                    <p>Price: <b>$0.99</b></p>
+                    <p><button class="poruchai">Add to cart</button></p>
+                </div>
+            </div>
+        </div>
+        </section>
+    <footer>
+        <div class="footer-social-icons">
+            <h4 class="_14">Follow us on</h4>
+            <ul class="social-icons">
+                <li><a href="" class="social-icon" data-toggle="tooltip" title="Facebook"> <i class="fa fa-facebook"></i></a></li>
+                <li><a href="" class="social-icon" data-toggle="tooltip" title="Twitter"> <i class="fa fa-twitter"></i></a></li>
+                <li><a href="" class="social-icon" data-toggle="tooltip" title="RSS"> <i class="fa fa-rss"></i></a></li>
+                <li><a href="" class="social-icon" data-toggle="tooltip" title="YouTube"> <i class="fa fa-youtube"></i></a></li>
+                <li><a href="" class="social-icon" data-toggle="tooltip" title="LinkedIn"> <i class="fa fa-linkedin"></i></a></li>
+                <li><a href="" class="social-icon" data-toggle="tooltip" title="Google"> <i class="fa fa-google-plus"></i></a></li>
+
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
