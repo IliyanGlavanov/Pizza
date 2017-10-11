@@ -1,0 +1,15 @@
+nav {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  background-color: orange;
+  text-align: center; }
+
+nav li {
+  display: inline;
+  padding: 20px;
+  background: #fff; }
+  nav li:hover {
+    background: green; }
+
+/*# sourceMappingURL=style.css.map */
