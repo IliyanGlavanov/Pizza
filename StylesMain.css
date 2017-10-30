@@ -10,7 +10,6 @@ body
 .modal.and.carousel {
   position: absolute; /* Needed because the carousel overrides the position property*/
 }
-
 /*First row + promo start*/
 .pizza-container{
     background-color: #3D3A38;
@@ -18,15 +17,22 @@ body
 #firstrow{
     border-top:2px solid white;
 }
+.pizza-name-size{
+  font-size: 125%;
+}
+.menubackground {
+  background-color: #c5c3fe;
+}
 .pizza-container figure {
 	height: 260px;
 }
 .pizza-container img {
 	margin: 0 auto;
 }
-#rightasider{
+#promocarousel{
    min-height:100%;
    height:inherit;
+   border-top:2px solid white;
 }
 .figure-caption{
     color:white;
@@ -43,7 +49,7 @@ body
 }
 
 .containers {
-    
+
     padding: 0 16px;
 }
 
@@ -64,18 +70,11 @@ body
     width: 100%;
     font-size: 18px;
 }
-
 .poruchai:hover {
     opacity: 0.9;
     color:green;
 }
-
-
-
-
-
-
-@media only screen and (min-width: 991px) and (max-width: 1199px) {
+@media (min-width: @screen-md-min) {
     #number br{
         display:none;
     }
@@ -86,7 +85,7 @@ body
       height: 240px;
   }
 }
-@media only screen and (min-width:768px) and (max-width: 991px) {
+@media (min-width: @screen-sm-min) {
     #myModal{
         display:none;
     }
@@ -106,15 +105,7 @@ body
 		width: auto;
   }
 }
-@media only screen and (min-width: 360px) and (max-width:767px) {
-    #myModal{
-        display:none;
-    }
-    #rightasider{
-        display:none;
-    }
-}
-@media only screen and (max-width:359px) {
+@media (max-width: @screen-xs-max) {
     #myModal{
         display:none;
     }
