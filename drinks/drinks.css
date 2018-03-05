@@ -1,49 +1,26 @@
 ﻿body
 {
-    background: url("http://prod-upp-image-read.ft.com/c3ee653e-0e3a-11e7-a88c-50ba212dce4d");
+    background: url("drinksbackground.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-/*First row + promo start*/
 .pizza-container{
     background-color: #3D3A38;
 }
 #firstrow{
     border-top:2px solid white;
 }
-.pizza-container figure {
-	height: 260px;
+.menubackground{
+  background-color: rgb(203, 180, 255);
 }
-.pizza-container img {
-	margin: 0 auto;
-}
-#rightasider{
-   min-height:100%;
-   height:inherit;
-}
-.card {
-    border: 1px solid white;
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    background-color: #c5c3fe;
-}
-
 .containers {
-    
     padding: 0 16px;
 }
-
-.pizza-name {
+.drink-type {
     color: gray;
     font-size: 18px;
 }
-
-.poruchai {
+.add-to-cart{
     border: none;
     outline: 0;
     display: inline-block;
@@ -56,10 +33,11 @@
     font-size: 18px;
 }
 
-.poruchai:hover {
+.add-to-cart:hover {
     opacity: 0.9;
     color:green;
 }
+
 /* FOOTER SOCIAL MEDIA BUTTONS*/
 .footer-social-icons {
             width: 350px;

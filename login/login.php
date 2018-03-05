@@ -1,62 +1,27 @@
+<?php
+  include ("../header.php")
+ ?>
 <!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Best pizza in the city">
-    <meta name="keywords" content="Best, Pizza, Belene, Slice, Pepperoni">
-    <link type="image/x-icon" rel="icon" href="../pizza-icon.ico" />
-    <meta charset="utf-8" />
-    <title>Iliyan's Pizza Place</title>
-    <!--Font-->
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <!--Icons-->
-    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!--popup-->
-    <script src="../script-popup.js" type="text/javascript"></script>
     <!-- Log in animations -->
     <script src="loginform.js" type="text/javascript"></script>
-    <!--MY .CSS LIBRARY-->
-    <link type="text/css" rel="stylesheet" href="../main.css?=1" />
     <!--MY .CSS-->
     <link type="text/css" rel="stylesheet" href="login.css?=3" />
 </head>
 <body>
   <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/bg_BG/sdk.js#xfbml=1&version=v2.10&appId=1675475726080991";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-    <header class="container">
-        <div class="row">
-            <h1 class="col-md-9 col-sm-12 col-xs-12"><a href="index.html" id="pizza">Iliyan's Pizza Place</a></h1>
-            <h4 href="#" class="col-md-3 col-sm-6 col-xs-6" id="callus">Call us: + 359 00 00 00 000</h4>
-
-        </div>
-        <!-- START OF PROMOTION CAROUSEL -->
-        <div class="row">
-            <nav class="col-md-12 col-sm-12 col-xs-12" id="nav">
-              <ul id="navbar">
-                  <li><a href="../index.html" class="navbutton">Home</a></li>
-                  <li><a href="../deals/deals.html" class="navbutton">Deals</a></li>
-                  <li><a href="../drinks/drinks.html" class="navbutton">Drinks</a></li>
-                  <li><a href="../delivery/delivery.html" class="navbutton">Delivery</a></li>
-                  <li><a href="../contacts/contacts.html" class="navbutton">Contact us</a></li>
-                  <li><a href="login.php" class="navbutton registerbtn"> Log in</a></li>
-                  <li><a href="login.php" class="navbutton registerbtn">Sign up</a></li>
-              </ul>
-            </nav>
-        </div>
-    </header>
-  <section>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/bg_BG/sdk.js#xfbml=1&version=v2.10&appId=1675475726080991";
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+    (document, 'script', 'facebook-jssdk'));
+  </script>
 
 <div class="container" id="loginform">
   <div class="container">
@@ -77,7 +42,7 @@
         <div class="panel-body">
           <div class="row">
             <div class="col-lg-12">
-              <form id="login-form" action="https://phpoll.com/login/process" method="post" role="form" style="display: block;">
+              <form id="login-form" action="../login/includes/signup.inc.php" method="post" role="form" style="display: block;">
                 <div class="form-group">
                   <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
                 </div>
@@ -104,13 +69,13 @@
                   <div class="row">
                     <div class="col-lg-12">
                       <div class="text-center">
-                        <a href="https://phpoll.com/recover" tabindex="5" class="forgot-password">Forgot Password?</a>
+                        <a href="" tabindex="5" class="forgot-password">Forgot Password?</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </form>
-              <form id="register-form" action="https://phpoll.com/register/process" method="post" role="form" style="display: none;">
+              <form id="register-form" action="" method="post" role="form" style="display: none;">
                   <div class="form-group">
                     <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
                   </div>
@@ -139,20 +104,8 @@
   </div>
 </div>
 </div>
-  </section>
-    <footer>
-        <div class="footer-social-icons">
-            <h4 class="_14">Follow us on</h4>
-            <ul class="social-icons">
-                <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
-                <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
-                <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
-                <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
-                <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
-                <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
-            </ul>
-        </div>
-    </footer>
-
+<?php
+  include ("../footer.php")
+ ?>
 </body>
 </html>

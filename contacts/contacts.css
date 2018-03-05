@@ -3,7 +3,9 @@
     background:url("kontakti.jpg")no-repeat center;
     background-size:cover;
 }
-
+iframe{
+  margin: 0 auto;
+}
 .fa-facebook {
   background: #3B5998;
   color: white;

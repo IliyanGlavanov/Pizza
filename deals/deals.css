@@ -1,5 +1,20 @@
 ﻿body
 {
-    background:url("http://wallpapercave.com/wp/Gb4m4DN.jpg");
+    background:url("dealsbackground.jpg");
     background-size:cover;
+}
+.modal.and.carousel {
+  position: absolute; /* Needed because the carousel overrides the position property*/
+}
+/*First row + promo start*/
+.pizza-container figure {
+	height: 260px;
+}
+.pizza-container img {
+	margin: 0 auto;
+}
+#promocarousel{
+   min-height:100%;
+   height:inherit;
+   border-top:2px solid white;
 }
