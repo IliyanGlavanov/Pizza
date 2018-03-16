@@ -1,6 +1,6 @@
 ﻿body
 {
-    background:url("https://cdn1.pri.org/sites/default/files/story/gallery/Pizza_p26.jpg")no-repeat center;
+    background:url("deliverybackground.jpg")no-repeat center;
     background-size:cover;
 }
 
@@ -13,12 +13,12 @@ form{
 }
 #contentlogin{
      font-size:50px;
-     box-sizing:initial; 
-     padding: 20px; 
-     width: 50px; 
-     text-align: center; 
-     text-decoration: none; 
-     margin: 5px 2px; 
+     box-sizing:initial;
+     padding: 20px;
+     width: 50px;
+     text-align: center;
+     text-decoration: none;
+     margin: 5px 2px;
      color:white;
      background-color: #3d5b99;
 }
