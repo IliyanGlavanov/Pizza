@@ -59,108 +59,108 @@
                 <img src="../pizza-images/pepperoni.png" alt="John" style="width:100%">
                 <div class="containers">
                   <!-- THE NAME OF THE PIZZA START -->
-                    <div class="pizza-name-size">"PEPPERONI"</div>
+                    <div class="pizza-name-Размер">"PEPPERONI"</div>
                     <!-- THE NAME OF THE PIZZA END -->
-                    <!-- START OF INGREDIENTS TOOLTIP -->
-                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Ingredients</p>
-                    <!-- END OF INGREDIENTS TOOLTIP -->
+                    <!-- START OF Съставки TOOLTIP -->
+                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Съставки</p>
+                    <!-- END OF Съставки TOOLTIP -->
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                            Choose size
+                            Избери размер
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size SM - Prize: $2.99</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер SM - Цена: $2.99</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size M - Prize: $3.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер M - Цена: $3.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size L - Prize: $4.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер L - Цена: $4.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size XL - Prize: $5.29</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер XL - Цена: $5.29</a></li>
                         </ul>
                     </div>
-                    <p><button class="add-to-cart">Add to cart</button></p>
+                    <p><button class="add-to-cart">Добави <span class="glyphicon glyphicon-shopping-cart"></span></button></p>
                 </div>
             </div>
             <div class="menubackground col-md-3 col-sm-6 col-xs-12 text-center">
                 <img src="../pizza-images/Cheese.png" alt="John" style="width:100%">
                 <div class="containers">
                     <!-- THE NAME OF THE PIZZA START -->
-                    <div class="pizza-name-size">"ALL CHEESE"</div>
+                    <div class="pizza-name-Размер">"ALL CHEESE"</div>
                     <!-- THE NAME OF THE PIZZA END -->
-                    <!-- START OF INGREDIENTS TOOLTIP -->
-                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Ingredients</p>
-                    <!-- END OF INGREDIENTS TOOLTIP -->
+                    <!-- START OF Съставки TOOLTIP -->
+                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Съставки</p>
+                    <!-- END OF Съставки TOOLTIP -->
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                            Choose size
+                            Избери размер
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size SM - Prize: $2.99</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер SM - Цена: $2.99</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size M - Prize: $3.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер M - Цена: $3.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size L - Prize: $4.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер L - Цена: $4.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size XL - Prize: $5.29</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер XL - Цена: $5.29</a></li>
                         </ul>
                     </div>
-                    <p><button class="add-to-cart">Add to cart</button></p>
+                    <p><button class="add-to-cart">Добави <span class="glyphicon glyphicon-shopping-cart"></span></button></p>
                 </div>
             </div>
             <div class="menubackground col-md-3 col-sm-6 col-xs-12 text-center">
                 <img src="../pizza-images/pizza_HawaiianChicken.png" alt="John" style="width:100%">
                 <div class="containers">
                     <!-- THE NAME OF THE PIZZA START -->
-                    <div class="pizza-name-size">"MEAT & VEGGIE"</div>
+                    <div class="pizza-name-Размер">"MEAT & VEGGIE"</div>
                     <!-- THE NAME OF THE PIZZA END -->
-                    <!-- START OF INGREDIENTS TOOLTIP -->
-                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Ingredients</p>
-                    <!-- END OF INGREDIENTS TOOLTIP -->
+                    <!-- START OF Съставки TOOLTIP -->
+                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Съставки</p>
+                    <!-- END OF Съставки TOOLTIP -->
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                            Choose size
+                            Избери размер
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size SM - Prize: $2.99</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер SM - Цена: $2.99</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size M - Prize: $3.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер M - Цена: $3.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size L - Prize: $4.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер L - Цена: $4.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size XL - Prize: $5.29</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер XL - Цена: $5.29</a></li>
                         </ul>
                     </div>
-                    <p><button class="add-to-cart">Add to cart</button></p>
+                    <p><button class="add-to-cart">Добави <span class="glyphicon glyphicon-shopping-cart"></span></button></p>
                 </div>
             </div>
             <div class="menubackground col-md-3 col-sm-6 col-xs-12 text-center">
                 <img src="../pizza-images/pizza_PremiumGardenVeggie_test.png" alt="John" style="width:100%">
                 <div class="containers">
                     <!-- THE NAME OF THE PIZZA START -->
-                    <div class="pizza-name-size">"ALL VEGGIE"</div>
+                    <div class="pizza-name-Размер">"ALL VEGGIE"</div>
                     <!-- THE NAME OF THE PIZZA END -->
-                    <!-- START OF INGREDIENTS TOOLTIP -->
-                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Ingredients</p>
-                    <!-- END OF INGREDIENTS TOOLTIP -->
+                    <!-- START OF Съставки TOOLTIP -->
+                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Съставки</p>
+                    <!-- END OF Съставки TOOLTIP -->
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                            Choose size
+                            Избери размер
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size SM - Prize: $2.99</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер SM - Цена: $2.99</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size M - Prize: $3.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер M - Цена: $3.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size L - Prize: $4.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер L - Цена: $4.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size XL - Prize: $5.29</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер XL - Цена: $5.29</a></li>
                         </ul>
                     </div>
-                    <p><button class="add-to-cart">Add to cart</button></p>
+                    <p><button class="add-to-cart">Добави <span class="glyphicon glyphicon-shopping-cart"></span></button></p>
                 </div>
             </div>
         </div>
@@ -170,108 +170,108 @@
                 <img src="../pizza-images/Classic_Meat_Lovers_Pizza.png" alt="John" style="width:100%">
                 <div class="containers">
                     <!-- THE NAME OF THE PIZZA START -->
-                    <div class="pizza-name-size">"MEAT KING"</div>
+                    <div class="pizza-name-Размер">"MEAT KING"</div>
                     <!-- THE NAME OF THE PIZZA END -->
-                    <!-- START OF INGREDIENTS TOOLTIP -->
-                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Ingredients</p>
-                    <!-- END OF INGREDIENTS TOOLTIP -->
+                    <!-- START OF Съставки TOOLTIP -->
+                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Съставки</p>
+                    <!-- END OF Съставки TOOLTIP -->
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                            Choose size
+                            Избери размер
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size SM - Prize: $2.99</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер SM - Цена: $2.99</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size M - Prize: $3.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер M - Цена: $3.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size L - Prize: $4.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер L - Цена: $4.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size XL - Prize: $5.29</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер XL - Цена: $5.29</a></li>
                         </ul>
                     </div>
-                    <p><button class="add-to-cart">Add to cart</button></p>
+                    <p><button class="add-to-cart">Добави <span class="glyphicon glyphicon-shopping-cart"></span></button></p>
                 </div>
             </div>
             <div class="menubackground col-md-3 col-sm-6 col-xs-12 text-center">
                 <img src="../pizza-images/Classic_Supreme_Pizza.png" alt="John" style="width:100%">
                 <div class="containers">
                     <!-- THE NAME OF THE PIZZA START -->
-                    <div class="pizza-name-size">"SUPREME ONE"</div>
+                    <div class="pizza-name-Размер">"SUPREME ONE"</div>
                     <!-- THE NAME OF THE PIZZA END -->
-                    <!-- START OF INGREDIENTS TOOLTIP -->
-                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Ingredients</p>
-                    <!-- END OF INGREDIENTS TOOLTIP -->
+                    <!-- START OF Съставки TOOLTIP -->
+                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Съставки</p>
+                    <!-- END OF Съставки TOOLTIP -->
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                            Choose size
+                            Избери размер
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size SM - Prize: $2.99</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер SM - Цена: $2.99</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size M - Prize: $3.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер M - Цена: $3.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size L - Prize: $4.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер L - Цена: $4.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size XL - Prize: $5.29</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер XL - Цена: $5.29</a></li>
                         </ul>
                     </div>
-                    <p><button class="add-to-cart">Add to cart</button></p>
+                    <p><button class="add-to-cart">Добави <span class="glyphicon glyphicon-shopping-cart"></span></button></p>
                 </div>
             </div>
             <div class="menubackground col-md-3 col-sm-6 col-xs-12 text-center">
                 <img src="../pizza-images/Primo_Meat.png" alt="John" style="width:100%">
                 <div class="containers">
                     <!-- THE NAME OF THE PIZZA START -->
-                    <div class="pizza-name-size">"MEAT & CHEESE"</div>
+                    <div class="pizza-name-Размер">"MEAT & CHEESE"</div>
                     <!-- THE NAME OF THE PIZZA END -->
-                    <!-- START OF INGREDIENTS TOOLTIP -->
-                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Ingredients</p>
-                    <!-- END OF INGREDIENTS TOOLTIP -->
+                    <!-- START OF Съставки TOOLTIP -->
+                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Съставки</p>
+                    <!-- END OF Съставки TOOLTIP -->
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                            Choose size
+                            Избери размер
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size SM - Prize: $2.99</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер SM - Цена: $2.99</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size M - Prize: $3.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер M - Цена: $3.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size L - Prize: $4.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер L - Цена: $4.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size XL - Prize: $5.29</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер XL - Цена: $5.29</a></li>
                         </ul>
                     </div>
-                    <p><button class="add-to-cart">Add to cart</button></p>
+                    <p><button class="add-to-cart">Добави <span class="glyphicon glyphicon-shopping-cart"></span></button></p>
                 </div>
             </div>
             <div class="menubackground col-md-3 col-sm-6 col-xs-12 text-center">
                 <img src="../pizza-images/pizza_GiddyUpBBQChicken.png" alt="John" style="width:100%">
                 <div class="containers">
                     <!-- THE NAME OF THE PIZZA START -->
-                    <div class="pizza-name-size">"CHICKEN BBQ"</div>
+                    <div class="pizza-name-Размер">"CHICKEN BBQ"</div>
                     <!-- THE NAME OF THE PIZZA END -->
-                    <!-- START OF INGREDIENTS TOOLTIP -->
-                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Ingredients</p>
-                    <!-- END OF INGREDIENTS TOOLTIP -->
+                    <!-- START OF Съставки TOOLTIP -->
+                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Съставки</p>
+                    <!-- END OF Съставки TOOLTIP -->
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                            Choose size
+                            Избери размер
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size SM - Prize: $2.99</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер SM - Цена: $2.99</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size M - Prize: $3.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер M - Цена: $3.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size L - Prize: $4.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер L - Цена: $4.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size XL - Prize: $5.29</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер XL - Цена: $5.29</a></li>
                         </ul>
                     </div>
-                    <p><button class="add-to-cart">Add to cart</button></p>
+                    <p><button class="add-to-cart">Добави <span class="glyphicon glyphicon-shopping-cart"></span></button></p>
                 </div>
             </div>
         </div>
@@ -280,54 +280,54 @@
                 <img src="../pizza-images/pizza_Meatbrawl.png" alt="John" style="width:100%">
                 <div class="containers">
                     <!-- THE NAME OF THE PIZZA START -->
-                    <div class="pizza-name-size">"MEATBALLS WORLD"</div>
+                    <div class="pizza-name-Размер">"MEATBALLS WORLD"</div>
                     <!-- THE NAME OF THE PIZZA END -->
-                    <!-- START OF INGREDIENTS TOOLTIP -->
-                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Ingredients</p>
-                    <!-- END OF INGREDIENTS TOOLTIP -->
+                    <!-- START OF Съставки TOOLTIP -->
+                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Съставки</p>
+                    <!-- END OF Съставки TOOLTIP -->
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                            Choose size
+                            Избери размер
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size SM - Prize: $2.99</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер SM - Цена: $2.99</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size M - Prize: $3.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер M - Цена: $3.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size L - Prize: $4.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер L - Цена: $4.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size XL - Prize: $5.29</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер XL - Цена: $5.29</a></li>
                         </ul>
                     </div>
-                    <p><button class="add-to-cart">Add to cart</button></p>
+                    <p><button class="add-to-cart">Добави <span class="glyphicon glyphicon-shopping-cart"></span></button></p>
                 </div>
             </div>
             <div class="menubackground col-md-3 col-sm-6 col-xs-12 text-center">
                 <img src="../pizza-images/pizza_CockadoodleBacon.png" alt="John" style="width:100%">
                 <div class="containers">
                     <!-- THE NAME OF THE PIZZA START -->
-                    <div class="pizza-name-size">"CHICKEN & BACON"</div>
+                    <div class="pizza-name-Размер">"CHICKEN & BACON"</div>
                     <!-- THE NAME OF THE PIZZA END -->
-                    <!-- START OF INGREDIENTS TOOLTIP -->
-                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Ingredients</p>
-                    <!-- END OF INGREDIENTS TOOLTIP -->
+                    <!-- START OF Съставки TOOLTIP -->
+                    <p class="pizza-name" data-toggle="tooltip" title="Parmesan cheese, olive oil, Italian seasoning, sugar,salt, flour, dry yeast">Съставки</p>
+                    <!-- END OF Съставки TOOLTIP -->
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-                            Choose size
+                            Избери размер
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size SM - Prize: $2.99</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер SM - Цена: $2.99</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size M - Prize: $3.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер M - Цена: $3.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size L - Prize: $4.49</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер L - Цена: $4.49</a></li>
                             <li role="presentation" class="divider"></li>
-                            <li role="presentation"><a role="menuitem" tabindex="-1">Size XL - Prize: $5.29</a></li>
+                            <li role="presentation"><a role="menuitem" tabindex="-1">Размер XL - Цена: $5.29</a></li>
                         </ul>
                     </div>
-                    <p><button class="add-to-cart">Add to cart</button></p>
+                    <p><button class="add-to-cart">Добави <span class="glyphicon glyphicon-shopping-cart"></span></button></p>
                 </div>
             </div>
         </div>

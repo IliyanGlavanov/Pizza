@@ -51,22 +51,6 @@ body
     font-size: 18px;
 }
 
-.add-to-cart {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-}
-.add-to-cart:hover {
-    opacity: 0.9;
-    color:green;
-}
 @media (min-width: @screen-md-min) {
     #number br{
         display:none;

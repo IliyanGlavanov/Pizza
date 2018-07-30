@@ -20,24 +20,23 @@
     <script type="text/javascript" src="script-popup.js" ></script>
     <script type="text/javascript" src="pizzasize.js"></script>
     <!--MY .CSS LIBRARY-->
-    <link type="text/css" rel="stylesheet" href="../main.css?=18" />
+    <link type="text/css" rel="stylesheet" href="../main.css?=19" />
 </head>
 <body>
   <header class="container">
       <div class="row">
           <h1 class="col-md-9 col-sm-8 col-xs-8"><a href="../index.php000" id="pizza">Iliyan's Pizza Place</a></h1>
-          <h4 class="col-md-3 col-sm-4 col-xs-4" id="callus"><a href="tel: +359 00 00 00 000" class="removelinkdefault">Call us: + 359 00 00 00 000</a></h4>
+          <h4 class="col-md-3 col-sm-4 col-xs-4" id="callus"><a href="tel: +359 00 00 00 000" class="removelinkdefault">Тел: + 359 00 00 00 000</a></h4>
       </div>
       <div class="row">
           <nav class="col-md-12 col-sm-12 col-xs-12" id="nav">
               <ul id="navbar">
-                  <li><a href="../index.php" class="navbutton">Home</a></li>
-                  <li><a href="../deals/deals.php" class="navbutton">Deals</a></li>
-                  <li><a href="../drinks/drinks.php" class="navbutton">Drinks</a></li>
-                  <li><a href="../delivery/delivery.php" class="navbutton">Delivery</a></li>
-                  <li><a href="../contacts/contacts.php" class="navbutton">Contact us</a></li>
-                  <li><a href="../login/login.php" class="navbutton registerbtn"> Log in</a></li>
-                  <li><a href="../login/login.php" class="navbutton registerbtn">Register</a></li>
+                  <li><a href="../index.php" class="navbutton">Начало</a></li>
+                  <li><a href="../deals/deals.php" class="navbutton">Промоции</a></li>
+                  <li><a href="../drinks/drinks.php" class="navbutton">Напитки</a></li>
+                  <li><a href="../delivery/delivery.php" class="navbutton">Доставка</a></li>
+                  <li><a href="../contacts/contacts.php" class="navbutton">Контакти</a></li>
+                  <li><a href="../login/login.php" class="navbutton registerbtn"> Вход</a></li>
               </ul>
           </nav>
       </div>

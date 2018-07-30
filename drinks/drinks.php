@@ -1,13 +1,13 @@
 <?php
   include ("../header.php")
  ?>
-<!DOCTYPE html>
+<!DOCВид html>
 
 <html lang="en">
 <head>
   <title>Home</title>
     <!--MY .CSS-->
-    <link type="text/css" rel="stylesheet" href="drinks.css?=2" />
+    <link Вид="text/css" rel="stylesheet" href="drinks.css?=2" />
 
 </head>
 <body>
@@ -20,11 +20,11 @@
                   <!-- THE NAME OF THE DRINK START -->
                     <div class="pizza-name-size">Coca Cola Zero</div>
                     <!-- THE NAME OF THE DRINK END -->
-                    <!-- START OF THE TYPE OF THE DRINK  TOOLTIP -->
-                      <p class="drink-type" data-toggle="tooltip" title="Zero">Type</p>
-                    <!-- END OF THE TYPE OF THE DRINK TOOLTIP -->
-                    <p>Price: <b>$0.99</b></p>
-                    <p><button class="add-to-cart">Add to cart</button></p>
+                    <!-- START OF THE Вид OF THE DRINK  TOOLTIP -->
+                      <p class="drink-Вид" data-toggle="tooltip" title="Zero">Вид</p>
+                    <!-- END OF THE Вид OF THE DRINK TOOLTIP -->
+                    <p>Цена: <b>$0.99</b></p>
+                    <p><button class="add-to-cart">Добави в количката</button></p>
                 </div>
             </div>
 
@@ -34,11 +34,11 @@
                 <!-- THE NAME OF THE DRINK START -->
                 <div class="pizza-name-size">Coca Cola Diet</div>
                 <!-- THE NAME OF THE DRINK END -->
-                <!-- START OF THE TYPE OF THE DRINK  TOOLTIP -->
-                <p class="drink-type" data-toggle="tooltip" title="Zero">Type</p>
-                <!-- END OF THE TYPE OF THE DRINK TOOLTIP -->
-                <p>Price: <b>$0.99</b></p>
-                <p><button class="add-to-cart">Add to cart</button></p>
+                <!-- START OF THE Вид OF THE DRINK  TOOLTIP -->
+                <p class="drink-Вид" data-toggle="tooltip" title="Zero">Вид</p>
+                <!-- END OF THE Вид OF THE DRINK TOOLTIP -->
+                <p>Цена: <b>$0.99</b></p>
+                <p><button class="add-to-cart">Добави в количката</button></p>
               </div>
             </div>
             <div class="menubackground col-md-3 col-sm-6 col-xs-6 text-center">
@@ -47,11 +47,11 @@
                 <!-- THE NAME OF THE DRINK START -->
                 <div class="pizza-name-size">Coca Cola Life</div>
                 <!-- THE NAME OF THE DRINK END -->
-                <!-- START OF THE TYPE OF THE DRINK  TOOLTIP -->
-                <p class="drink-type" data-toggle="tooltip" title="Zero">Type</p>
-                <!-- END OF THE TYPE OF THE DRINK TOOLTIP -->
-                <p>Price: <b>$0.99</b></p>
-                <p><button class="add-to-cart">Add to cart</button></p>
+                <!-- START OF THE Вид OF THE DRINK  TOOLTIP -->
+                <p class="drink-Вид" data-toggle="tooltip" title="Zero">Вид</p>
+                <!-- END OF THE Вид OF THE DRINK TOOLTIP -->
+                <p>Цена: <b>$0.99</b></p>
+                <p><button class="add-to-cart">Добави в количката</button></p>
               </div>
             </div>
             <div class="menubackground col-md-3 col-sm-6 col-xs-6 text-center">
@@ -60,11 +60,11 @@
                 <!-- THE NAME OF THE DRINK START -->
                 <div class="pizza-name-size">Pepsi Classic</div>
                 <!-- THE NAME OF THE DRINK END -->
-                <!-- START OF THE TYPE OF THE DRINK  TOOLTIP -->
-                <p class="drink-type" data-toggle="tooltip" title="Zero">Type</p>
-                <!-- END OF THE TYPE OF THE DRINK TOOLTIP -->
-                <p>Price: <b>$0.99</b></p>
-                <p><button class="add-to-cart">Add to cart</button></p>
+                <!-- START OF THE Вид OF THE DRINK  TOOLTIP -->
+                <p class="drink-Вид" data-toggle="tooltip" title="Zero">Вид</p>
+                <!-- END OF THE Вид OF THE DRINK TOOLTIP -->
+                <p>Цена: <b>$0.99</b></p>
+                <p><button class="add-to-cart">Добави в количката</button></p>
               </div>
             </div>
         </div>
@@ -75,11 +75,11 @@
               <!-- THE NAME OF THE DRINK START -->
               <div class="pizza-name-size">Fanta Orange</div>
               <!-- THE NAME OF THE DRINK END -->
-              <!-- START OF THE TYPE OF THE DRINK  TOOLTIP -->
-              <p class="drink-type" data-toggle="tooltip" title="Zero">Type</p>
-              <!-- END OF THE TYPE OF THE DRINK TOOLTIP -->
-              <p>Price: <b>$0.99</b></p>
-              <p><button class="add-to-cart">Add to cart</button></p>
+              <!-- START OF THE Вид OF THE DRINK  TOOLTIP -->
+              <p class="drink-Вид" data-toggle="tooltip" title="Zero">Вид</p>
+              <!-- END OF THE Вид OF THE DRINK TOOLTIP -->
+              <p>Цена: <b>$0.99</b></p>
+              <p><button class="add-to-cart">Добави в количката</button></p>
             </div>
           </div>
 
@@ -89,11 +89,11 @@
                 <!-- THE NAME OF THE DRINK START -->
                 <div class="pizza-name-size">Fanta Mango</div>
                 <!-- THE NAME OF THE DRINK END -->
-                <!-- START OF THE TYPE OF THE DRINK  TOOLTIP -->
-                <p class="drink-type" data-toggle="tooltip" title="Zero">Type</p>
-                <!-- END OF THE TYPE OF THE DRINK TOOLTIP -->
-                <p>Price: <b>$0.99</b></p>
-                <p><button class="add-to-cart">Add to cart</button></p>
+                <!-- START OF THE Вид OF THE DRINK  TOOLTIP -->
+                <p class="drink-Вид" data-toggle="tooltip" title="Zero">Вид</p>
+                <!-- END OF THE Вид OF THE DRINK TOOLTIP -->
+                <p>Цена: <b>$0.99</b></p>
+                <p><button class="add-to-cart">Добави в количката</button></p>
               </div>
             </div>
 
@@ -103,11 +103,11 @@
                 <!-- THE NAME OF THE DRINK START -->
                 <div class="pizza-name-size">Monster Ripper</div>
                 <!-- THE NAME OF THE DRINK END -->
-                <!-- START OF THE TYPE OF THE DRINK  TOOLTIP -->
-                <p class="drink-type" data-toggle="tooltip" title="Zero">Type</p>
-                <!-- END OF THE TYPE OF THE DRINK TOOLTIP -->
-                <p>Price: <b>$0.99</b></p>
-                <p><button class="add-to-cart">Add to cart</button></p>
+                <!-- START OF THE Вид OF THE DRINK  TOOLTIP -->
+                <p class="drink-Вид" data-toggle="tooltip" title="Zero">Вид</p>
+                <!-- END OF THE Вид OF THE DRINK TOOLTIP -->
+                <p>Цена: <b>$0.99</b></p>
+                <p><button class="add-to-cart">Добави в количката</button></p>
               </div>
             </div>
 
@@ -117,11 +117,11 @@
                   <!-- THE NAME OF THE DRINK START -->
                   <div class="pizza-name-size">Red Bull Classic</div>
                   <!-- THE NAME OF THE DRINK END -->
-                  <!-- START OF THE TYPE OF THE DRINK  TOOLTIP -->
-                  <p class="drink-type" data-toggle="tooltip" title="Zero">Type</p>
-                  <!-- END OF THE TYPE OF THE DRINK TOOLTIP -->
-                  <p>Price: <b>$0.99</b></p>
-                  <p><button class="add-to-cart">Add to cart</button></p>
+                  <!-- START OF THE Вид OF THE DRINK  TOOLTIP -->
+                  <p class="drink-Вид" data-toggle="tooltip" title="Zero">Вид</p>
+                  <!-- END OF THE Вид OF THE DRINK TOOLTIP -->
+                  <p>Цена: <b>$0.99</b></p>
+                  <p><button class="add-to-cart">Добави в количката</button></p>
                 </div>
               </div>
             </div>
@@ -132,11 +132,11 @@
                   <!-- THE NAME OF THE DRINK START -->
                   <div class="pizza-name-size">Mineral Water</div>
                   <!-- THE NAME OF THE DRINK END -->
-                  <!-- START OF THE TYPE OF THE DRINK  TOOLTIP -->
-                  <p class="drink-type" data-toggle="tooltip" title="Zero">Type</p>
-                  <!-- END OF THE TYPE OF THE DRINK TOOLTIP -->
-                  <p>Price: <b>$0.99</b></p>
-                  <p><button class="add-to-cart">Add to cart</button></p>
+                  <!-- START OF THE Вид OF THE DRINK  TOOLTIP -->
+                  <p class="drink-Вид" data-toggle="tooltip" title="Zero">Вид</p>
+                  <!-- END OF THE Вид OF THE DRINK TOOLTIP -->
+                  <p>Цена: <b>$0.99</b></p>
+                  <p><button class="add-to-cart">Добави в количката</button></p>
                 </div>
               </div>
             </div>
